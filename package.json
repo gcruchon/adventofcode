@@ -4,7 +4,8 @@
   "description": "Advent of Code",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cover": "npm run test -- --verbose --coverage"
   },
   "repository": {
     "type": "git",
